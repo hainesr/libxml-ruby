@@ -42,6 +42,6 @@ Gem::Specification.new do |spec|
   spec.date = DateTime.now
   spec.add_development_dependency('bundler', '~> 1.6')
   spec.add_development_dependency('test-unit', '~> 3.0')
-  spec.add_development_dependency('rake-compiler')
-  spec.add_development_dependency('hanna_gudao')
+  spec.add_development_dependency('rake-compiler', '~> 0.9')
+  spec.add_development_dependency('hanna_gudao', '~> 0.3')
 end
