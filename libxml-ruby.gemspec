@@ -41,6 +41,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 1.8.6'
   spec.date = DateTime.now
   spec.add_development_dependency('bundler', '~> 1.6')
+  spec.add_development_dependency('test-unit', '~> 3.0')
   spec.add_development_dependency('rake-compiler')
   spec.add_development_dependency('hanna_gudao')
 end
